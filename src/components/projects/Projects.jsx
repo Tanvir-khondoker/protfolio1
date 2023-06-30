@@ -17,7 +17,7 @@ const Projects = () => {
         </div>
 
         {/* Project content goes here */}
-        <div className="mx-auto  grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:w-[90%]">
+        <div className="mx-auto  grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:w-[95%]">
           
           
           <div className="card w-[85%] rounded-lg mb-8 mx-auto">
@@ -30,6 +30,7 @@ const Projects = () => {
                 recipes)
               </h2>
               <p>
+                <span  className="block text-xl font-bold mb-3">Top Features:</span>
                 • Chefs & Recipes: Discover talented chefs and their
                 mouthwatering recipes.<br></br>• User-Friendly: Enjoy a simple
                 and intuitive experience.<br></br>• Detailed Chef Info: Explore
@@ -68,6 +69,7 @@ const Projects = () => {
                 discover toys)
               </h2>
               <p>
+              <span  className="block text-xl font-bold mb-3">Top Features:</span>
                 • Explore Toys: Effortlessly browse and discover toys by
                 categories.<br></br>• Instant Details: Access detailed
                 information on toys with a single click for logged-in users.
@@ -107,12 +109,15 @@ const Projects = () => {
                 management and enrollment)
               </h2>
               <p>
+              <span  className="block text-xl font-bold mb-3">Top Features:</span>
                 • User-Friendly Course Experience: Seamlessly explore, enroll,
                 and pay for sports skill courses. <br /> • Role-Specific Dashboards:
                 Tailored dashboards for users, instructors, and admins for
                 efficient course management. <br /> • Streamlined Course Approval:
                 Curated approval process to ensure high-quality courses.
               </p>
+              
+              
               <div className="card-actions flex justify-between py-8">
                 <Link to="https://sportify-camp-3a941.web.app/">
                 <div className="badge btn btn-xs btn-outline btn-accent">
@@ -132,6 +137,8 @@ const Projects = () => {
                   </Link>
                 </div>
               </div>
+
+
             </div>
           </div>
         </div>

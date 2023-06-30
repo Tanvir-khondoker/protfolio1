@@ -4,6 +4,16 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 // import formal_profile from "../../assets/personal/formal_profile.jpg";
 
 const Home = () => {
+  
+ const handleDownload = () =>{
+    const url = "../../../public/resume.pdf";
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = "resume.pdf";
+    anchor.click(); 
+
+ }
+
   return (
     <div name="home" className="bg-[#0a192f] lg:w-full h-screen">
       <div className="lg:max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
@@ -24,7 +34,7 @@ const Home = () => {
               <HiArrowNarrowRight className="ml-3 " />
             </span>
           </button>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center gap-2  hover:bg-green-600 hover:border-green-600">
+          <button onClick={handleDownload} className="text-white group border-2 px-6 py-3 my-2 flex items-center gap-2  hover:bg-green-600 hover:border-green-600">
             Download Resume <FaDownload/>
           </button>
         </div>
