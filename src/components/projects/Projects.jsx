@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div name="projects" className="bg-[#0a192f] min-h-screen text-gray-300">
       <div className="container mx-auto px-4 py-8">
-        <div className="pb-8 ">
+        <div className="pb-1 ">
           <p className="text-4xl font-bold inline border-b-4 border-green-600">
             Projects
           </p>
@@ -31,10 +31,7 @@ const Projects = () => {
               </h2>
               <p>
                 <span  className="block text-xl font-bold mb-3">Top Features:</span>
-                • Chefs & Recipes: Discover talented chefs and their
-                mouthwatering recipes.<br></br>• User-Friendly: Enjoy a simple
-                and intuitive experience.<br></br>• Detailed Chef Info: Explore
-                comprehensive details about each chef and their top recipes.
+                • Explore talented chefs and delicious recipes in one place. <br /> • User friendly experience with detailed chef info
               </p>
               <div className="card-actions flex justify-between py-8">
                 <Link to="https://chefs-ph-project.web.app/">
@@ -70,11 +67,8 @@ const Projects = () => {
               </h2>
               <p>
               <span  className="block text-xl font-bold mb-3">Top Features:</span>
-                • Explore Toys: Effortlessly browse and discover toys by
-                categories.<br></br>• Instant Details: Access detailed
-                information on toys with a single click for logged-in users.
-                <br></br>• Manage Collection: Add new toys easily and
-                conveniently manage your collection.
+                • Effortlessly explore and discover toys by categories. <br /> • Instantly access detailed toy information with a single click for logged-in users, and conveniently manage your toy collection.
+                
               </p>
               <div className="card-actions flex justify-between py-8">
                 <Link to="https://brain-box-toys.web.app/">
@@ -110,11 +104,7 @@ const Projects = () => {
               </h2>
               <p>
               <span  className="block text-xl font-bold mb-3">Top Features:</span>
-                • User-Friendly Course Experience: Seamlessly explore, enroll,
-                and pay for sports skill courses. <br /> • Role-Specific Dashboards:
-                Tailored dashboards for users, instructors, and admins for
-                efficient course management. <br /> • Streamlined Course Approval:
-                Curated approval process to ensure high-quality courses.
+                • User-friendly course experience: Easy navigation, enrollment, and payment for sports skill courses. <br /> • Role-specific dashboards: Customized dashboards for users, instructors, and admins to efficiently manage courses. (In github client-side you will find admin credential) 
               </p>
               
               

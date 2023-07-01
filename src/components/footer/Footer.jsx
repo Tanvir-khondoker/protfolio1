@@ -1,7 +1,7 @@
 import { CiLocationOn } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
 import { BsLinkedin } from "react-icons/bs";
-import { AiOutlineFacebook } from "react-icons/ai";
+// import { AiOutlineFacebook } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -23,9 +23,9 @@ const Footer = () => {
       <Link to="https://www.linkedin.com/in/md-tanvir-hossain-khondoker-069856230/">
         <BsLinkedin className="w-[30px] h-[30px]"/>
       </Link>
-      <Link to="https://web.facebook.com/profile.php?id=100009848400438">
+      {/* <Link to="https://web.facebook.com/profile.php?id=100009848400438">
         <AiOutlineFacebook className="w-[30px] h-[30px]"/>
-      </Link>
+      </Link> */}
     </div>
   </div>
 </div>

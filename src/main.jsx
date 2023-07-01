@@ -25,7 +25,9 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
     
      <div className='sm:w-full'>
+       
        <RouterProvider router={router} />
+       
      </div>
     
 )

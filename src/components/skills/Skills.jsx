@@ -20,7 +20,9 @@ const Skills = () => {
         <p className="text-lg mb-4">
           These are the technologies I've worked with:
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:w-[80%] lg:w-[75%] mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 sm:w-[93%] lg:w-[75%] mx-auto">
+          
+          
           <div className="skill rounded-3xl overflow-hidden shadow-md bg-[#0a192f] hover:scale-105 transition-transform duration-1000">
             <img
               className="w-20 mx-auto mt-6"

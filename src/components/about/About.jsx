@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import profilePic from '../../assets/personal/formal_profile.jpg'
+import "./about.css"
 const About = () => {
   return (
     <div name='about' className='w-full min-h-screen bg-[#0a192f] text-gray-300 py-14'>
@@ -7,21 +8,23 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
             <div className='flex flex-col items-center justify-center gap-6'>
-            <p className='text-4xl font-bold inline border-b-4 border-green-600 mx-auto '>
+            <p className='text-4xl font-bold inline border-b-4 rounded-md border-green-600 mx-auto '>
               About Me
             </p>
-            <img src={profilePic} className='h-60 rounded-2xl my-4' alt="" />
+            <img src={profilePic} className='h-60 rounded-2xl my-4 about-image' alt='' />
+
             </div>
           </div>
           <div></div>
           </div>
             
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-3xl font-bold'>
-              <p>Hi. I'm Md. Tanvir Hossain Khondoker, nice to meet you. Please take a look around.</p>
+            <div className='sm:text-right text-2xl font-bold'>
+              <p>Welcome, honored guest. I am Md. Tanvir Hossain Khondoker, a dedicated professional committed to delivering exceptional results.</p>
             </div>
-            <div>
-              <p>I am a passionate web developer specializing in the MERN stack. With a strong focus on user-friendly digital experiences, I enjoy crafting responsive web applications using MongoDB, Express.js, React.js, and Node.js. As a junior full-stack developer, I'm continuously expanding my skills in front-end and back-end development. I'm driven by the belief that technology has the power to shape the future. I strive to stay up-to-date with the latest industry trends and best practices.</p>  
+            <div className='border-l-4 rounded-xl border-green-600'>
+              <p className='pl-3'>I'm a dedicated and passionate WebApp developer specializing in the MERN stack. With a friendly approach and a focus on user-friendly experiences, I craft responsive applications using MongoDB, Express.js, React.js, and Node.js. As a junior full-stack developer, I continuously learn and expand my skills in front-end and back-end development. I believe in the transformative power of technology and strive to deliver exceptional, simple, and intuitive web applications.</p>
+                
             </div>
           </div>
       </div>
