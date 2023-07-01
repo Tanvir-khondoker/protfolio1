@@ -5,14 +5,15 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
   
- const handleDownload = () =>{
-    const url = "../../../public/resume.pdf";
+  const handleDownload = () => {
+    const url = "https://drive.google.com/uc?export=download&id=1PRosnES9JlM4MEngbCys9lZpoH07dnr0";
     const anchor = document.createElement("a");
     anchor.href = url;
     anchor.download = "resume.pdf";
-    anchor.click(); 
-
- }
+    anchor.setAttribute("target", "_blank");
+    anchor.setAttribute("rel", "noopener noreferrer");
+    anchor.click();
+  };
 
   return (
     <div name="home" className="bg-[#0a192f] lg:w-full h-screen">

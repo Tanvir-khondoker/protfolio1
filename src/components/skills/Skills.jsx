@@ -155,7 +155,7 @@ const Skills = () => {
             <div className="flex items-center gap-2 ml-4 mb-2">
               <span>Proficiency:</span>
               <progress
-                className="progress progress-success w-56 h-[15px]"
+                className="progress  progress-success w-56 h-[15px]"
                 value={50}
                 max="100"
               ></progress>

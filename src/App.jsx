@@ -7,7 +7,14 @@ import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Gear from './assets/personal/galaxy.gif'; 
+import Footer from "./components/footer/Footer";
 function App() {
+   
+//   import { useCallback } from "react";
+// import Particles from "react-tsparticles";
+// import type { Container, Engine } from "tsparticles-engine";
+// import { loadFull } from "tsparticles";
+
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -32,6 +39,7 @@ function App() {
           <Skills />
           <Projects />
           <Contact />
+          <Footer/>
         </div>
       )}
     </>
