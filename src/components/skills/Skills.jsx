@@ -12,7 +12,7 @@ import firebase from "../../assets/firebase.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="bg-[#0a192f] text-gray-300">
+    <div name="skills" className="bg-gradient-to-r from-black via-gray-900 to-gray-700 text-gray-300">
       <div className="container mx-auto py-8 px-4">
         <h1 className="text-4xl font-bold border-b-4 border-green-600 mb-6">
           Skills

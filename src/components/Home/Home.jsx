@@ -20,13 +20,13 @@ const Home = () => {
   };
 
   return (
-    <div name="home" className="bg-[#0a192f] lg:w-full h-screen">
+    <div name="home" className="bg-gradient-to-r from-black via-gray-900 to-gray-700 lg:w-full h-screen">
       <div className="lg:max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-green-600 text-lg">Hi, my name is</p>
         <h1 className="text-4xl lg:text-5xl font-bold text-[#ccd6f6]">
           Tanvir Khondoker
         </h1>
-        <h2 style={{textShadow:"0 0 9px green"}} className=" text-xl lg:text-3xl  font-bold text-light">
+        <h2 style={{textShadow:"0 0 9px blue"}} className=" text-xl lg:text-3xl  font-bold text-[#ccd6f6]">
           <Typed
             strings={[
               'I am a Full Stack Developer',

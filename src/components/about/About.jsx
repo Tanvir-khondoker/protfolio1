@@ -3,7 +3,7 @@ import profilePic from '../../assets/personal/formal_profile.jpg'
 import "./about.css"
 const About = () => {
   return (
-    <div name='about' className='w-full min-h-screen bg-[#0a192f] text-gray-300 py-14'>
+    <div name='about' className='w-full min-h-screen bg-gradient-to-r from-black via-gray-900 to-gray-700 text-gray-300 py-14'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>

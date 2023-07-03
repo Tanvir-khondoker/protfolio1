@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <div name="contact" className="bg-[#0a192f] min-h-screen text-gray-300">
+    <div name="contact" className="bg-gradient-to-r from-black via-gray-900 to-gray-700 min-h-screen text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center">
         <p className="text-4xl font-bold border-b-4 border-green-600">Contact</p>
         <p className="py-4">Send me a message</p>

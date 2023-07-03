@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div name="projects" className="bg-[#0a192f] min-h-screen text-gray-300">
+    <div name="projects" className="bg-gradient-to-r from-black via-gray-900 to-gray-700 min-h-screen text-gray-300">
       <div className="container mx-auto px-4 py-8">
         <div className="pb-1 ">
           <p className="text-4xl font-bold inline border-b-4 border-green-600">

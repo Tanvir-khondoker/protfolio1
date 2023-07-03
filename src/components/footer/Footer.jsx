@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 pt-16 bg-[#0b1b31]  text-gray-300">
-        <div className="flex sm:flex-col md:flex-row justify-between items-center gap-20 mx-auto">
-        <div>
+    <footer className="footer p-10 pt-12  bg-gradient-to-r from-black via-gray-900 to-gray-700  text-gray-300">
+        <div className="flex sm:flex-col md:flex-row justify-between items-center gap-20 mx-auto pt-5 border-t-4 rounded-lg border-green-600 ">
+        <div className="">
     
     <p><span className="text-xl font-bold">Md. Tanvir Hossain Khondoker</span>.<br/>Providing professional web solutions tailored to your unique needs</p>
     <p className="mt-1 flex gap-2 items-center"><CiLocationOn/>Barishal,Bangladesh</p>

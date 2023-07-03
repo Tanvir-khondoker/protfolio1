@@ -11,7 +11,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className=" fixed w-full h-20 flex justify-between items-center px-5 lg:px-12 bg-[#0a192f] text-white mb-28">
+    <div className=" fixed w-full h-20 flex justify-between items-center px-5 lg:px-12 bg-gradient-to-r from-black via-gray-900 to-gray-700 text-white mb-28">
       <ul>
         <li className="font-bold text-3xl">
           <Link to="home" smooth={true} duration={700}>
