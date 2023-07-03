@@ -8,6 +8,7 @@ import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Gear from "./assets/personal/galaxy.gif";
 import Footer from "./components/footer/Footer";
+import Particle from "./components/particle/Particle";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -28,6 +29,7 @@ function App() {
         </div>
       ) : (
         <div>
+          <Particle/>
           <Navbar />
           <Home />
           <About />

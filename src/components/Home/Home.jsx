@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { FaDownload } from 'react-icons/fa';
+import resumePDF from '../../../public/resume/resume.pdf';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import Typed from 'react-typed';
@@ -10,7 +11,7 @@ const Home = () => {
   
 
   const handleDownload = () => {
-    const url = 'https://drive.google.com/uc?export=download&id=1PRosnES9JlM4MEngbCys9lZpoH07dnr0';
+    const url = resumePDF;
     const anchor = document.createElement('a');
     anchor.href = url;
     anchor.download = 'resume.pdf';
